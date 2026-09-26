@@ -1,0 +1,21 @@
+.env
+.env.*
+*.log
+__pycache__/
+.pytest_cache/
+*.pyc
+*.bak
+*.backup*
+*.orig
+*.tmp
+runtime/
+.venv/
+Scraper Data/
+outputs/
+screenshots/
+documents/
+*_REPORT.xlsx
+*_research.json
+*_DONE.txt
+gitleaks-report.json
+findings.json

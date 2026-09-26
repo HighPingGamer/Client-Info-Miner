@@ -1,0 +1,9 @@
+playwright
+PyMuPDF
+openpyxl
+ollama
+easyocr
+torch
+torchvision
+numpy
+pillow
