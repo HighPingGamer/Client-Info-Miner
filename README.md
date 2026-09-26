@@ -4,7 +4,7 @@
 
 **Client Info Miner is a free Windows tool that turns public company websites into decision-ready client briefing reports using website scanning, report collection, OCR, local AI, and Excel output.**
 
-It is built for people who need to quickly understand whether a company is worth pursuing, without spending hours manually opening pages, downloading reports, copying facts, and building research notes.
+It is built for people who need to understand whether a company is worth pursuing, without spending hours manually opening pages, downloading reports, copying facts, and building research notes.
 
 ## What It Does
 
