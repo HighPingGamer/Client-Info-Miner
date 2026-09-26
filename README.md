@@ -1,4 +1,5 @@
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/5329be12-3f2b-4a7a-a542-dadb0f0e0606" /># Client Info Miner
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/5329be12-3f2b-4a7a-a542-dadb0f0e0606" />
+**Client Info Miner**
 
 Client Info Miner scans a company website, saves research data, downloads relevant report PDFs, and builds an Excel research report.
 
