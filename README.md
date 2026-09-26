@@ -1,4 +1,4 @@
-<img width="1672" height="941" alt="Client Info Miner flowchart" src="https://github.com/user-attachments/assets/5329be12-3f2b-4a7a-a542-dadb0f0e0606" />
+<img width="1672" height="941" alt="Client Info Miner flowchart" src="[https://github.com/user-attachments/assets/5329be12-3f2b-4a7a-a542-dadb0f0e0606](https://raw.githubusercontent.com/HighPingGamer/Client-Info-Miner/refs/heads/main/Image%20Sep%2026%2C%202026%2C%2001_10_24%20PM.png)" />
 
 # Client Info Miner
 
