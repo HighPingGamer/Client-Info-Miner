@@ -6,7 +6,7 @@ These requirements are based on the actual components used by Client Info Miner:
 - PyMuPDF for PDF reading
 - OpenPyXL for Excel output
 - EasyOCR + PyTorch for screenshot OCR
-- Ollama + `llama3.1` for local AI report extraction
+- Ollama + `gemma4:e4b` for local AI report extraction
 
 This file is not a benchmark result. It is a component-based minimum. A full clean-machine install test has not been run yet.
 
@@ -49,7 +49,7 @@ Project decision:
 
 ### RAM
 
-Ollama guidance says 7B-class models need at least 8 GB RAM available. `llama3.1:latest` / `llama3.1:8b` is the model used here and is listed by Ollama as 4.9 GB.
+Ollama lists the `gemma4:e4b` download at approximately 6.6–9.5 GB. Download size is not the same as the RAM needed while the model is running.
 
 Client Info Miner also runs Chromium, OCR, PyTorch, PDF parsing, and Excel generation at the same time or in the same workflow.
 
@@ -65,7 +65,7 @@ Reason: 8 GB may run the model alone, but it is not a safe minimum for this full
 Verified component storage:
 
 - Ollama Windows install needs at least 4 GB for the binary install.
-- `llama3.1:latest` / `llama3.1:8b` is listed by Ollama as 4.9 GB.
+- `gemma4:e4b` is listed by Ollama as 6.6–9.5 GB.
 - Playwright installs browser binaries.
 - PyTorch/EasyOCR packages are large.
 - Client Info Miner stores screenshots, PDFs, JSON, Excel reports, and logs in `Scraper Data/`.
@@ -75,7 +75,7 @@ Project decision:
 - Absolute minimum free space before install: 25 GB
 - Recommended free space: 40 GB+
 
-Reason: Ollama + model alone account for about 9 GB before Python packages, Playwright browser files, and generated scan data.
+Reason: Ollama + model alone account for about 10.6–13.5 GB before Python packages, Playwright browser files, and generated scan data.
 
 ### GPU
 
@@ -105,7 +105,7 @@ Internet is required during install for:
 - Python packages
 - Playwright Chromium browser
 - Optional Ollama install
-- Optional `llama3.1` model download
+- Optional `gemma4:e4b` model download
 
 Internet is also required during normal use to scan company websites.
 
@@ -119,7 +119,7 @@ The installer may download or install:
 - Packages from `requirements.txt`
 - Playwright Chromium
 - Ollama
-- `llama3.1`
+- `gemma4:e4b`
 
 First install can take a long time.
 
@@ -127,7 +127,7 @@ First install can take a long time.
 
 ## Required For Report Builder
 
-The report builder needs Ollama and the `llama3.1` model.
+The report builder needs Ollama and the `gemma4:e4b` model.
 
 If the installer does not install Ollama automatically, install it manually:
 
@@ -136,7 +136,7 @@ https://ollama.com/download
 Then run:
 
 ```powershell
-ollama pull llama3.1
+ollama pull gemma4:e4b
 ```
 
 ---
@@ -180,4 +180,4 @@ Do not publish `Scraper Data/` to GitHub.
 - EasyOCR PyPI / README: https://pypi.org/project/easyocr/
 - Ollama Windows docs: https://ollama.readthedocs.io/en/windows/
 - Ollama quickstart RAM guidance: https://ollama.readthedocs.io/en/quickstart/
-- Ollama llama3.1 model page: https://ollama.com/library/llama3.1
+- Ollama gemma4:e4b model page: https://ollama.com/library/gemma4
