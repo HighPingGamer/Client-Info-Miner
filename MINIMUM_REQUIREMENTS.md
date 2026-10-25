@@ -58,7 +58,6 @@ Project decision:
 - Absolute minimum: 16 GB RAM
 - Recommended: 32 GB RAM
 
-Reason: 8 GB may run the model alone, but it is not a safe minimum for this full workflow.
 
 ### Disk Space
 
